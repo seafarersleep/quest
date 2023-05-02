@@ -1,5 +1,5 @@
 @echo off
-set /p "id=Enter ID: "
+set /p "msg=Commit comment: "
 git add .
-git commit -m "%id"
+git commit -m "%msg"
 git push
